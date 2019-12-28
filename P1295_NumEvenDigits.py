@@ -19,7 +19,7 @@ def findNumbers(nums: int) -> int:
     numEvens=0
     for i in nums:
         evenDigits=False
-        while i>10:
+        while i>=10:
             i=i//10
             evenDigits=not evenDigits
         if evenDigits:
